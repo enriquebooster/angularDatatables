@@ -1,0 +1,24 @@
+<div class="container-fluid" style="padding-top: 10%">
+    <div class="container">
+      <table class="table table-striped table-bordered table-sm row-border hover"
+             datatable [dtOptions]="dtOptions"
+             [dtTrigger]="dtTrigger">
+
+        <thead>
+        <tr>
+          <th>producto</th>
+          <th>descripcion</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let iCarrito of list; let index= index">
+          <td >{{iCarrito.producto}}</td>
+          <td >{{iCarrito.descripcion}}</td>
+
+        </tr>
+        </tbody>
+      </table>
+
+    </div>
+</div>
