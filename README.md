@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
-## Library 
+## Documentation Angular Datatables
 https://l-lin.github.io/angular-datatables/#/welcome
 
 ## Development server
